@@ -1,0 +1,124 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 1rem;
+  box-shadow: 0px 10px 25px rgb(0 0 0 /5%), 0px 20px 48px rgb(0 0 0 /5%), 0px 1px 4px rgb(0 0 0 /5%);
+}
+
+.postImg {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.postReact {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.postWrapper {
+  padding: 1rem;
+}
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+.postProfileImg {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.postUsername {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.postDate {
+  font-family: 14px;
+}
+.postDelete {
+  position: absolute;
+  list-style: none;
+  right: 35rem;
+  border-radius: 4px;
+  padding: 10px 15px;
+  /* margin-right: -19px; */
+  margin-top: -41px;
+  cursor: pointer;
+  background: #ec3131;
+  color: white;
+}
+
+.postCenter {
+  margin: 20px 0;
+}
+.postText {
+  font-weight: 500;
+  font-size: 18px;
+}
+.postBtmFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postBtmFooterItem {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  cursor: pointer;
+}
+.footerItmIcon {
+  margin-right: 10px;
+}
+.footerItmText {
+  font-weight: 500;
+}
+@media screen and (max-width: 400px) {
+  .postWrapper {
+    padding: 0rem;
+  }
+  .postBtmFooterItem {
+    padding: 5px 0px;
+  }
+  .footerItmIcon {
+    margin-right: 5px;
+  }
+  .footerItmText {
+    font-weight: 300px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .postDelete {
+    right: 21rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .postDelete {
+    right: 13rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  .postDelete {
+    right: 7rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .postDelete {
+    right: 4rem;
+  }
+}
+@media screen and (max-width: 393px) {
+  .postDelete {
+    right: 3rem;
+  }
+}
+

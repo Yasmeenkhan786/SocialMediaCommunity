@@ -1,0 +1,116 @@
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ProfileCards {
+    padding: 1rem;
+  }
+  
+  
+  /* Profile Images */
+  .Profile{
+    display: flex;
+    
+  }
+  .Profile > img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    bottom: -3rem;
+    box-shadow: var(--profileShadow);
+    cursor: pointer;
+  }
+  
+  /* Profile Name */
+  .ProfileName {
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  
+  .ProfileName > span:nth-of-type(1) {
+    font-weight: bold;
+  }
+  .fc-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.UnfollowButton{
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+    background: transparent;
+}
+  
+  /* Follow Status */
+  .followStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    width: 80%;
+  }
+  
+  .followStatus > hr {
+    width: 80%;
+    border: 1px solid var(--hrColor);
+  }
+  
+  .followStatus > div {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .follow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .follow > span:nth-of-type(1) {
+    font-weight: bold;
+  }
+  
+  .follow > span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 13px;
+  }
+  
+  .vline {
+    height: 150%;
+    border-left: 2px solid var(--hrColor);
+  }
+  .ProfileCard>span
+  {
+      font-weight: bold;
+      color: orange;
+      align-self: center;
+      margin-bottom: 1rem;
+      cursor: pointer;
+  }
+  .infor{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .edit{
+    color: #f95f35;
+    cursor: pointer;
+  }
+  .logout-button{
+    width: 7rem;
+     height: 2rem;
+    }
+
+     @media screen and (max-width: 500px) {
+      .ProfileCards{
+        padding: 1rem 0rem;
+      }
+    }

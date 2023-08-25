@@ -1,0 +1,50 @@
+/* Form Styling */
+.Form{
+    /* display: flex; */
+    
+    /* justify-content: center; */
+    
+    /* align-items: center; */
+    gap: 2rem;
+    margin-left: 0.5rem;
+  }
+  
+  /* .infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex:1;
+  } */
+  
+  .Form>div{
+    display: flex; 
+    flex-direction: column;
+    /* padding: 0rem 2rem; */
+    gap: 1rem;
+    /* height: 2rem; */
+  
+    
+  }
+  .profileImg{
+    width: 6rem;
+    border-radius: 50%;
+   height: 6rem;
+    bottom: -3rem;
+    box-shadow: var(--profileShadow);
+    cursor: pointer;
+  }
+  .infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 15px;
+    flex:1;
+  }
+  
+  
+  .btn{
+    width: 100%;
+  }

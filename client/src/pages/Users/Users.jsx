@@ -15,8 +15,12 @@ const Users = () => {
     dispatch(getAllUser());
   }, []);
   const search = (users) => {
-    return (
-      users.filter((user) => user.firstname.toLowerCase().includes(input)));
+   return users.filter(
+      (user) =>
+        user.firstname.includes(input) ||
+        user.lastname.includes(input) ||
+        user.username.includes(input)
+    );
   };
   return (
     <div>

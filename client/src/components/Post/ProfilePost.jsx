@@ -4,7 +4,7 @@ import comment from "../../img/comments.png";
 import share from "../../img/shares.png";
 import thumbsUp from "../../img/thumbs-up.png";
 import likeOutline from "../../img/like-otline.png";
-import defaultProfile from "../../img/defaultProfile.png";
+import defaultProfile from "../../img/avatar.png";
 import { likePost } from "../../api/PostsRequests";
 import { useDispatch, useSelector } from "react-redux";
 import { format } from "timeago.js";

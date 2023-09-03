@@ -17,9 +17,9 @@ const Users = () => {
   const search = (users) => {
    return users.filter(
       (user) =>
-        user.firstname.includes(input) ||
-        user.lastname.includes(input) ||
-        user.username.includes(input)
+         user.firstname.includes(input) || user.firstname.toLowerCase().includes(input) ||
+        user.lastname.includes(input) || user.lastname.toLowerCase().includes(input)||
+        user.username.includes(input)|| user.username.toLowerCase().includes(input) 
     );
   };
   return (

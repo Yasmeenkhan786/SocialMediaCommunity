@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "./ProfileInfo.css";
 import { UilPen } from "@iconscout/react-unicons";
 import CurrentPost from "../Posts/CurrenPosts";
-import defaultProfile from "../../img/defaultProfile.png";
+import defaultProfile from "../../img/avatar.png";
 import ProfileModal from "../ProfileModal/ProfileModal";
 import { followUser,unfollowUser } from "../../actions/UserAction";
 import { logout } from "../../actions/AuthActions";

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
-import Home from "../../img/home.png";
+import Home from "../../img/house.png";
 import profile from "../../img/user.png";
-import Logo from "../../img/logo.png";
+import Logo from "../../img/feather.png";
 import { UilSearch } from "@iconscout/react-unicons";
 import { useSelector } from "react-redux";
 

@@ -7,7 +7,7 @@ import { UilSchedule } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
 import { useDispatch, useSelector } from "react-redux";
 import { uploadPost } from "../../actions/PostsAction"
-import defaultProfile from "../../img/defaultProfile.png";
+import defaultProfile from "../../img/avatar.png";
 
 const PostShare = () => {
   const dispatch = useDispatch();

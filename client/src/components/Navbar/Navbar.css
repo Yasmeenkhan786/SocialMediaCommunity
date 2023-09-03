@@ -58,7 +58,7 @@
   height: 1.5rem;
 }
 .Search {
-  color: #ef8236;
+  color:var(--red);
 }
 
 .r-button {

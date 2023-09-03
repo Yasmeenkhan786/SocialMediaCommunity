@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import defaultProfile from "../../img/defaultProfile.png";
+import defaultProfile from "../../img/avatar.png";
 import "./Users.css";
 
 const User = ({ person }) => {

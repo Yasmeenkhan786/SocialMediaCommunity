@@ -4,7 +4,7 @@ import "./ProfileModal.css";
 import { useDispatch } from "react-redux";
 import { updateProfile } from "../../actions/UserAction";
 import { useParams } from "react-router-dom";
-import defaultProfile from "../../img/defaultProfile.png";
+import defaultProfile from "../../img/avatar.png";
 
 const ProfilePicture = ({ modal, setModal, data }) => {
   const theme = useMantineTheme();

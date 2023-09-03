@@ -109,8 +109,13 @@
      height: 2rem;
     }
 
-     @media screen and (max-width: 500px) {
+   @media screen and (max-width: 500px) {
       .ProfileCards{
-        padding: 1rem 0rem;
+        padding: 0rem;
+      }
+      .Profile >img{
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1rem
       }
     }

@@ -2,7 +2,7 @@
   min-height: 50px;
   width: 100%;
   margin: 0% auto;
-  border-top: solid 3px #ef8236;
+  border-top: solid 3px var(--red);
   box-shadow: 0px 1px 5px #00000333;
   position: fixed;
   z-index: 5;
